@@ -1,0 +1,16 @@
+module talk {
+
+    interface client {
+		
+		void afficherMessage(in string message);
+       
+    };
+
+    interface chat {
+		
+		void diffuserMessage(in string message);
+        void enregistrer(in string idObj);
+       
+    };
+};
+
